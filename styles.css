@@ -95,47 +95,52 @@ body {
   background: rgb(214, 228, 248);
 }
 
+.initiatives{
+  background: white;
+  padding-bottom: 100px;
+  padding-top: 10px;
+  margin: 0;
+}
 .initiative{
   font-size: 52px;
-  padding: 20px;
-  margin-bottom: 10px;
+  padding-top: 30px;
   text-align: center;
-  color: rgb(13, 42, 85);
-  font-family: Arial;
+  color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-bottom: -20px!important;
 }
 
 .accordion {
-  background-color: rgb(214, 228, 248);
+  background: linear-gradient(90deg, rgba(18,18,114,1) 0%, rgba(2,2,51,1) 80%);
+  color:white;
   cursor: pointer;
-  padding: 18px;
-  margin: 0;
-  font-weight: 300;
+  padding: 25px;
+  font-weight: 200;
   text-align: left;
-  width:60%;
+  width:75%;
   border: groove;
-  font-family: Garamond,Times,Perputua;
+  font-size: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0.2,0.2);
+  margin-top: 20px;
+}
+.act, .accordion:hover, .accordion:hover::after{
+  background: black;
+  color: white;
+  width: 75%;
+  box-shadow: 0px 0px 16px 0px #000;
+  justify-content: center;
   font-size: 25px;
 }
-
-.active, .accordion:hover, .accordion:hover::after {
-  background-color: rgb(4,4,93);
-  color: white;
-  width: 64%;
-  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
-  font-family: Garamond,Times,Perputua;
-  font-size: 30px;
-}
-
-
 .accordion-panel {
   padding: 0 18px;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
-  width: 64%;
+  width: 74%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0.2,0.2);
-  font-family: Garamond,Times,Perputua;
-  font-size: 20px;
+  font-size:18px;
+  background-color: #f1f1f1;
+  text-align: center;
 }
 
 .events{
